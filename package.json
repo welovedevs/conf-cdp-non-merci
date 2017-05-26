@@ -1,24 +1,25 @@
 {
-  "name": "devoxx-france-2017",
+  "name": "happy-developers",
   "version": "1.0.0",
-  "description": "Devoxx France 2017 presentations",
+  "description": "10 méthodes pour rendre les développeurs heureux, la 7e va vous étonner",
   "main": "index.js",
   "scripts": {
     "start": "live-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linsolas/devoxx-france-2017.git"
+    "url": "git+https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux.git"
   },
   "keywords": [
-    "DevoxxFrance"
+    "Hiring",
+    "IT"
   ],
-  "author": "Romain Linsolas, Cyril Lakech",
+  "author": "Damien Cavaillès",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/linsolas/devoxx-france-2017/issues"
+    "url": "https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux/issues"
   },
-  "homepage": "https://github.com/linsolas/devoxx-france-2017#readme",
+  "homepage": "https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux#readme",
   "devDependencies": {
     "font-awesome": "^4.7.0",
     "live-server": "^1.2.0",
