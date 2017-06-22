@@ -1,0 +1,235 @@
+.blur, .blur-more {
+  background-color: rgba(0, 0, 0, .33);
+  border-radius: 5px;
+  padding: 25px !important;
+}
+.blur-more {
+  background-color: rgba(0, 0, 0, .66);
+}
+
+.clarify {
+  background-color: rgba(255, 255, 255, .33);
+  border-radius: 5px;
+  padding: 25px !important;
+}
+
+i.fa-twitter {
+  color: #0084b4;
+}
+
+.reveal ul,
+.reveal ul ul {
+  list-style-type: none;
+}
+
+ul.fa > li > i.fa:first-of-type {
+  min-width: 50px;
+  color: #999;
+}
+
+.reveal section img.raw {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex > * {
+  flex: 1;
+}
+
+.pro {
+  color: #35bd5b !important;
+}
+.con {
+  color: #f17100 !important;
+}
+
+blockquote.quoted:before, blockquote.quoted:after {
+  font: normal normal normal 32px/1 FontAwesome;
+  color: #ccc;
+}
+blockquote.quoted:before {
+  content: "\f10d";
+}
+blockquote.quoted:after {
+  content: "\f10e";
+}
+
+.important {
+  color: #f17100 !important;
+}
+
+i.fa.fa-money {
+  color: #85bb65;
+}
+
+.chapter-number, .chapter-number-7 {
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+}
+.chapter-number {
+  background-color: rgba(241, 113, 0, .25);
+  border: solid 10px #f17100 !important;
+  color: #f17100;
+}
+.chapter-number-7 { /* C'est en OR, on est donc forcément étonné ! */
+  background-color: rgba(255, 215, 0, .25);
+  border: solid 10px gold !important;
+  color: gold;
+}
+
+.chapter-small-number, .chapter-small-number-7, .intro-number-10 {
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 24px;
+  height: 48px;
+  width: 48px;
+  text-align: center;
+}
+.intro-number-10 {
+  height: 70px;
+  width: 70px;
+}
+.chapter-small-number {
+  background-color: rgba(241, 113, 0, .25);
+  border: solid 5px #f17100 !important;
+  color: #f17100;
+}
+.chapter-small-number-7, .intro-number-10 { /* C'est en OR, on est donc forcément étonné ! */
+  background-color: rgba(255, 215, 0, .25);
+  border: solid 5px gold !important;
+  color: gold;
+}
+
+/* Ratings */
+.ratings {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: solid 1px #ccc !important;
+  font-size: 20px !important;
+  padding: 3px !important;
+  color: #000;
+  border-radius: 5px;
+}
+.ratings .head {
+  background-color: #f5f5f5;
+  border-bottom: solid 1px #ccc;
+  padding: 5px 5px 5px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+.ratings .body {
+  background-color: #fff;
+  padding: 5px;
+  text-align: right;
+}
+.ratings .body .fa-wrench, .ratings .body .fa-smile-o {
+  color: #777;
+}
+.ratings .rank-0 { color: #e60028; }
+.ratings .rank-1 { color: #f17100; }
+.ratings .rank-2 { color: #009bcd; }
+.ratings .rank-3 { color: #35bd5b; }
+
+.footer .company-logo {
+  right: 0;
+  bottom: 10px;
+  margin: 0;
+  width: 300px;
+  height: 30px;
+  position: fixed;
+}
+
+.footer .company-logo > img {
+  position: relative;
+}
+
+.reveal .progress span {
+  background: #e60028;
+}
+/**************************/
+/* DEVOXX FRANCE TEMPLATE */
+/**************************/
+
+.footer {
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 32px;
+  z-index: 100;
+}
+
+.footer img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.footer p {
+  margin: 0px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold
+}
+
+.reveal .slide-number {
+  margin: 0 auto;
+  width: 20px;
+  right: 25px;
+  bottom: 64px;
+  text-align: center;
+}
+
+.reveal .controls {
+  height: 50px;
+  width: 50px;
+  bottom: 50px;
+}
+.reveal .controls button {
+  border-width: 12px;
+}
+
+.reveal .controls .navigate-up {
+  border-bottom-width: 12px;
+  left: 8px;
+  top: -15px;
+}
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #057bf3;
+}
+
+.reveal .controls .navigate-down {
+  border-top-width: 12px;
+  left: 8px;
+  top: 41px;
+}
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #057bf3;
+}
+
+.reveal .controls .navigate-left {
+  border-right-width: 12px;
+  top: 13px;
+  left: -20px;
+}
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #057bf3;
+}
+
+.reveal .controls .navigate-right {
+  border-left-width: 12px;
+  top: 13px;
+  left: 36px;
+}
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #057bf3;
+}

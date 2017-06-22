@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/league.css">
+  <link rel="stylesheet" href="css/devoxx-france-2017.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+  <link rel="import" href="./quickie/01-intro.html"                   role="slide">
+  <link rel="import" href="./quickie/02-speakers.html"                role="slide">
+
+  <link rel="import" href="./quickie/03-why.html"                     role="slide">
+  <link rel="import" href="./chapters/04-apprendre.html"              role="slide">
+
+  <link rel="import" href="./quickie/05-recrutement.html"             role="slide">
+  <link rel="import" href="./quickie/06-mission.html"                 role="slide">
+  <link rel="import" href="./quickie/07-ssii.html"                    role="slide">
+  <link rel="import" href="./quickie/08-parlons-pognon.html"          role="slide">
+  <link rel="import" href="./quickie/09-autres-jobs.html"          role="slide">
+
+
+  <link rel="import" href="./quickie/conclusion.html"             role="slide">
+
+  <script>
+  	var link = document.createElement( 'link' );
+  	link.rel = 'stylesheet';
+  	link.type = 'text/css';
+  	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  	document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+  <title>Et après développeur, chef de projet ?</title>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides" id="slides">
+    </div>
+    <div class="footer">
+      <p>
+        <i class="fa fa-twitter"></i> @thedamfr | @jechercheundev
+      </p>
+      <div class="company-logo">
+        <img src="images/jcud-footer-logo.png" alt="JCUD">
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="lib/js/webcomponents-lite.js"></script>
+
+  <script src="js/reveal.js"></script>
+  <script>
+    function initiliazeReveal() {
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: true,
+        transition: 'convex', // 'slide', // none/fade/slide/convex/concave/zoom
+        dependencies: [
+          { src: 'js/notes/notes.js', async: true }
+        ]
+      });
+    }
+  </script>
+
+  <script src="js/presentation.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-34711882-4', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

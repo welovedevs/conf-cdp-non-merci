@@ -1,0 +1,29 @@
+{
+  "name": "happy-developers",
+  "version": "1.0.0",
+  "description": "10 méthodes pour rendre les développeurs heureux, la 7e va vous étonner",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux.git"
+  },
+  "keywords": [
+    "Hiring",
+    "IT"
+  ],
+  "author": "Damien Cavaillès",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux/issues"
+  },
+  "homepage": "https://github.com/jechercheundev/conf-10-methodes-pour-rendre-les-devs-heureux#readme",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.0",
+    "reveal.js": "^3.4.1",
+    "webcomponents.js": "^0.7.24"
+  }
+}
