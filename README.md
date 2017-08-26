@@ -5,7 +5,7 @@ Inspiré et forké avec consentement. Contenu original :
 
 Visionnez en prod :
 * [Et après développeur, Chef de projet ?](https://jechercheundev.github.io/conf-cdp-non-merci/#/) by TheDamFr
-
+* Vidéo ([Youtube](https://www.youtube.com/watch?v=dqEtXw4wDKo)) du VoxxedDay Luxembourg
 
 1/ Le but n'étant pas de reproduire la conférence originale, mais probablement plus de produire un nouveau contenu, plus orienté "Startup"
 2/ Cette deuxième itération vise à produire un quickie de 15min, percutant et efficace !
